@@ -1,0 +1,32 @@
+$date
+	Mon Jul 20 15:08:39 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$scope module testimm $end
+$var wire 32 ! inst [31:0] $end
+$var wire 64 " imm_s [63:0] $end
+$var wire 64 # imm_i [63:0] $end
+$var wire 64 $ imm_b [63:0] $end
+$var reg 64 % imm [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+b0 "
+b1 !
+$end
+#10
+b100011 !
+#20
+b1100001 !
+#30
